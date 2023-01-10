@@ -12,15 +12,18 @@ body {
 }
 .wrapper {
   position: fixed;
-  right: 50px;
+  right: -370px;
   bottom: 50px;
   max-width: 345px;
   width: 100%;
   background: #fff;
   border-radius: 8px;
   padding: 15px 25px 22px;
-  transition: right 0.3s ease;
+  transition: all 0.3s ease;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.wrapper.show {
+  right: 20px;
 }
 .title-box {
   display: flex;
